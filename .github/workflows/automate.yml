@@ -20,4 +20,4 @@ jobs:
           pip install pytest
           pip install -r requirements.txt
       - name: Run tests with pytest
-        run: pytestpip insta
+        run: pytest
